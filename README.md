@@ -1,5 +1,9 @@
 # TwitterPi
 
+## Presentation
+
+[TwitterPi Presentation](http://go-talks.appspot.com/github.com/dixonwille/TwitterPi/Presentation/IoT.slide)
+
 ## Software Prerequisites
 - Python2.7
 - tweepy
