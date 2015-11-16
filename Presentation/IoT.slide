@@ -1,0 +1,56 @@
+Internet of Things
+Connecting Hardware to Social Media
+10:00 5 Dec 2015
+Tags: python, twitter, tweepy, raspberry pi
+
+Will Dixon
+Intern, ACS Technologies
+will.dixon@acstechnologies.com
+
+* Overview
+
+- How to create a Twitter Application
+- Connect to an API
+- Extract data that you need (data mining)
+- Use that data and communicate to "The Real World"
+- Learn the math behind finding the correct resistor size
+- How to read a schematic
+- Read resistor color codes
+
+* What is an API
+
+It is a TLA (Three Letter Acronym)
+
+API stands for *Application*Program*Interface*
+
+It is a way to interface with and application.
+
+Think of it as a wall socket. The socket is there if you want to use it. It makes it easier to receive electricity (you don't have to go outside and splice into a wire).
+
+Except, APIs do not have to just send information to a user, they can receive information as well.
+
+* Where can I find an API
+
+
+
+* Creating a Twitter Application
+
+1. Visit [[https://apps.twitter.com]]
+2. Login to your twitter account (if not already logged in)
+3. Click the *Create*New*App* button
+4. Name your app (must me unique ex. <username>_TwitterPi)
+5. Give your app a description
+6. Give your app a homepage
+- Use your github repo
+- If you don't have one you can use mine [[https://github.com/dixonwille/TwitterPi]]
+7. Sign your life away by agreeing to the Developer Agreement
+8. Click *Create*your*Twitter*Application*
+
+* Getting Tokens For Later Use
+
+1. Visit [[https://apps.twitter.com]]
+2. Login to your twitter account (if not already logged in)
+3. Click on the app that you want access to
+4. Go to the *Permissions* tab and update Access to *Read*Only* and click *Update*Settings*
+5. Go to the *Keys*and*Access*Tokens* tab and click *Create*my*access*token*
+6. Copy these keys and put them into your *credentials.json* file respectively
